@@ -1,2 +1,12 @@
 
 please give me a code login page using HTML CSS PHP and MySQL. Attribute Frist Name, Last Name,Mail Id,Save Button
+//add culum on edisting database
+ALTER TABLE users ADD COLUMN roll VARCHAR(50);
+
+git init
+git add .
+git commit -m "Initial commit"  //name of the project
+git remote add origin [repository URL]
+git branch -M main
+git remote add origin https://github.com/skmonzil/Login_page.git
+git push -u origin main
